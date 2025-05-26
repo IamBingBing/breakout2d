@@ -5,7 +5,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     public float sensitive = 0.01f;
-    private int score = 0;
+    public int score = 0;
     public GameObject prefeb;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI MainMessage;
