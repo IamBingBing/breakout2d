@@ -1558,6 +1558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensitive: 0.01
+  score: 0
   prefeb: {fileID: 572236833}
   scoreText: {fileID: 392644074}
   MainMessage: {fileID: 618360207}
@@ -2281,8 +2282,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320824105}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5219, y: -2.5523, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.5219116, y: -2.5523071, z: 0}
   m_LocalScale: {x: 0.7038601, y: 0.7046415, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2735,7 +2736,7 @@ GameObject:
   - component: {fileID: 1737617363}
   m_Layer: 0
   m_Name: wall
-  m_TagString: Untagged
+  m_TagString: bottom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
