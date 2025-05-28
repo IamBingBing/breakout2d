@@ -6,12 +6,13 @@ public class Bar : MonoBehaviour
 {
     public int direction;
     public int movement = 2;
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("has been enter");
         movement = direction;
     }
-    private void OnTriggerExit2D(Collider2D collision)
+    
+    private void OnCollisionExit2D(Collision2D collision)
     {
         movement = 2;
     }

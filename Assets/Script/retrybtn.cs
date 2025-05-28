@@ -10,6 +10,7 @@ public class senstivebtn : MonoBehaviour
     public void restart()
     {
         GameManager.Instance.GameStart();
+        this.gameObject.SetActive(false);
     }
     
 }
